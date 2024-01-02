@@ -1,0 +1,369 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* box started  */
+.box{
+    height:550px;
+    width:100%;
+    background:url("../images/12.jpg");
+    background-size:100% 100%;
+    position:relative;
+    filter:blur(2px);
+}
+/* box closed  */
+
+/* dream started  */
+.dream{
+    height:550px;
+    width:15%;
+    position:absolute;
+    top:0;
+    left:0;
+    padding: 30px 0 0 50px;
+    text-align:center;
+}
+.dream::after{
+    content:"";
+    height:inherit;
+    width:100%;
+    background:rgba(0, 0, 0, 0.377);
+    position:absolute;
+    top:0;
+    left:0;
+}
+.dreampulse1{
+    height:100px;
+    width:150px;
+    border:2px solid white;
+    text-transform:uppercase;
+    font-size:22px;
+    color:white;
+    padding:15px 0 0 0;
+    
+}
+.dreampulse1 .dreampulse2{
+    height:inherit;
+    width:inherit;
+    border:inherit;
+    position:absolute;
+    top:5%;
+    left:20%;
+}
+.list{
+    height:150px;
+    width:100px;
+    margin: 50px 0px 0 0px;
+    text-align:right;
+    font-size:12px;
+}
+.list li{
+    list-style:none;
+    line-height:30px;
+}
+.list li a{
+    text-decoration:none;
+    color:white;
+    text-transform:uppercase;
+    text-shadow: 0 0 10px black;
+}
+.list li .block{
+    height:10px;
+    width:10px;
+    background:white;
+    position:absolute;
+    top:34.5%;
+    left:70%;
+}
+.sociallinks{
+    height:25px;
+    width:150px;
+    display:flex;
+    text-align:center;
+    line-height:25px;
+    padding: 0 0 0 0;
+    margin: 100px 0 0 0;
+}
+.sociallinks .fb{
+    height:25px;
+    width:25%;
+    background:white;
+    margin-right:5px;
+}
+.sociallinks .tw{
+    height:25px;
+    width:25%;
+    background:white;
+    margin-right:5px;
+}
+.sociallinks .ins{
+    height:25px;
+    width:25%;
+    background:white;
+    margin-right:5px;
+}
+.sociallinks .link{
+    height:25px;
+    width:25%;
+    background:white;
+    margin-right:5px;
+}
+.footer{
+    font-size:10px;
+    text-align:center;
+    color:white;
+    text-shadow: 0 0 10px black;
+    position:absolute;
+    top:90%;
+    left:24%;
+    line-height:20px;
+}
+/* dream closed  */
+
+/* content start  */
+.content{
+    height:200px;
+    width:300px;
+    border:1px solid white;
+    background:rgba(255, 255, 255, 0.71);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.737) inset;
+    position:absolute;
+    padding:10px 50px 0 50px;
+    top:30%;
+    left:70%;
+    line-height:15px;
+
+}
+.content p:first-child{
+    color:rgba(0, 140, 255, 0.639);
+    text-shadow:0 0 0px rgba(0, 0, 0, 0.849);
+    text-transform:uppercase;
+    font-size:13px;
+    font-weight:bold;
+    text-align:center;
+}
+.content p:last-child{
+    color:black;
+    text-shadow:0 0 0 black;
+    font-size:10px;
+    margin:25px 0px 0 0px;
+}
+/* content closed  */
+
+/* container start  */
+.container{
+    height:1500px;
+    width:100%;
+    display:flex;
+}
+.container .part1{
+    height:1500px;
+    width:15%;
+    background:rgba(0, 0, 0, 0.636);
+}
+.container .part2{
+    height:1500px;
+    width:85%;
+    position:relative;
+    padding:0 0 0 50px;
+}
+.container .part2 .about{
+    height:300px;
+    width:400px;
+    padding: 30px 120px 0 60px;
+}
+.container .part2 .about i{
+    color:darkblue;
+    font-size:50px;
+}
+.container .part2 .about p:nth-child(2){
+    margin: 20px 0 0 0;
+    color:darkblue;
+    font-weight:bold;
+}
+.container .part2 .about p:nth-child(3){
+    font-size:11px;
+    margin:20px 0 0 0;
+}
+.container .part2 .company{
+    height:300px;
+    width:400px;
+    padding: 30px 90px 0px;
+    position:absolute;
+    top:0;
+    left:24%;
+}
+.container .part2 .company i{
+    color:darkblue;
+    font-size:50px;
+}
+.container .part2 .company p:nth-child(2){
+    margin: 20px 0 0 0;
+    color:darkblue;
+    font-weight:bold;
+}
+.container .part2 .company p:nth-child(3){
+    font-size:11px;
+    margin:20px 0 0 0;
+}
+.container .part2 .album{
+    height:250px;
+    width:700px;
+    border:1px solid grey;
+    padding:30px 0px 0 30px;
+    position:absolute;
+    top:23%;
+    left:8%;
+}
+.container .part2 .album::after{
+    content:"";
+    height:inherit;
+    width:inherit;
+    border:inherit;
+    position:absolute;
+    top:-4%;
+    right:1%;
+}
+.container .part2 .album p{
+    color:darkblue;
+    font-weight:bold;
+}
+.container .part2 .album img{
+    margin:10px 10px 0 0;
+}
+.container .part2 .client{
+    height:300px;
+    width:700px;
+    /* border:2px solid black; */
+    position:absolute;
+    top:45%;
+    left:8%;
+    padding:30px 150px 0 50px;
+}
+.container .part2 .client p:nth-child(1){
+    color:darkblue;
+    font-weight:bold;
+}
+.container .part2 .client p:nth-child(2){
+    font-size:12px;
+    margin: 10px 0 0 0;
+    line-height:20px;
+}
+.container .part2 .client .images {
+    height:60px;
+    width:700px;
+    display:flex;
+    flex-wrap: wrap;
+}
+.container .part2 .client .client1{
+    height:60px;
+    width:150px;
+    outline:1px solid grey;
+    text-align:center;
+    margin: 30px 10px 0 0;
+}
+.container .part2 .client .client2{
+    height:60px;
+    width:150px;
+    outline:1px solid grey;
+    text-align:center;
+    margin: 30px 10px 0 0;
+}
+.container .part2 .client .client3{
+    height:60px;
+    width:150px;
+    outline:1px solid grey;
+    text-align:center;
+    margin: 30px 10px 0 0;
+}
+.container .part2 .client .client4{
+    height:60px;
+    width:150px;
+    outline:1px solid grey;
+    text-align:center;
+    margin: 30px 10px 0 0;
+}
+.container .part2 .client .client5{
+    height:60px;
+    width:150px;
+    outline:1px solid grey;
+    text-align:center;
+    margin: 30px 10px 0 0;
+}
+.container .part2 .client .client6{
+    height:60px;
+    width:150px;
+    outline:1px solid grey;
+    text-align:center;
+    margin: 30px 10px 0 0;
+}
+.container .part2 .client .client7{
+    height:60px;
+    width:150px;
+    outline:1px solid grey;
+    text-align:center;
+    margin: 30px 10px 0 0;
+}
+.container .part2 .client .client8{
+    height:60px;
+    width:150px;
+    outline:1px solid grey;
+    text-align:center;
+    margin: 30px 10px 0 0;
+}
+.container .part2 .talk{
+    height:200px;
+    width:300px;
+    outline:1px solid grey;
+    position:absolute;
+    top:75%;
+    left:8%;
+    padding:30px 50px 0 30px;
+}
+.container .part2 .talk::after{
+    content:"";
+    height:inherit;
+    width:inherit;
+    outline:inherit;
+    position:absolute;
+    top:-2%;
+    left:-2%;
+}
+.container .part2 .talk p:nth-child(1){
+    color:darkblue;
+    font-weight:bold;
+}
+.container .part2 .talk p:nth-child(2){
+    font-size:11px;
+    margin: 10px 0 0 0;
+    line-height:15px;
+    color:grey;
+}
+.container .part2 .form{
+    height:200px;
+    width:300px;
+    position:absolute;
+    top:75%;
+    left:35%;
+    text-align:right;
+}
+.container .part2 .form .line{
+    width:80%;
+}
+.container .part2 .form input, textarea{
+    border:none;
+    border-bottom: 1px solid grey;
+}
+.container .part2 .form input:focus{
+    outline:none;
+}
+.container .part2 .form textarea:focus{
+    outline:none;
+}
+/* @media (max-width:500px){
+    .dream .list{
+        width:100%;
+    }
+} */
+

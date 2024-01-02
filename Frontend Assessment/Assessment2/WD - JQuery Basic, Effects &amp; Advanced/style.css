@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    background:rgba(128, 128, 128, 0.322);
+    padding:20px 0 0 20px;
+    font-size:15px;
+    font-family:'Times New Roman', Times, serif;
+}
+.fn,.ln{
+    margin:0 0 0 50px;
+    height:20px;
+    width:40%;
+    font-size:10px;
+    padding:0px 0 0 5px;
+    line-height:20px;
+}
+.em{
+    margin:0 0 0 80px;
+    height:20px;
+    width:40%;
+    font-size:10px;
+    padding:0px 0 0 5px;
+    line-height:20px;
+}
+.mb{
+    margin:0 0 0 70px;
+    height:20px;
+    width:40%;
+    font-size:10px;
+    padding:0px 0 0 5px;
+    line-height:20px;
+}
+.male{
+    margin:0 0 0 70px;
+}
+.date{
+    margin:0 0 0 30px;
+    height:20px;
+    width:40%;
+    font-size:10px;
+    padding:0px 0 0 5px;
+    line-height:20px;
+}
+.txt{
+    margin:0 0 0 60px;
+    height:80px;
+    width:40%;
+    padding:0px 0 0 5px;
+    vertical-align: top;
+}
+.city{
+    margin:0 0 0 82px;
+    height:20px;
+    width:40%;
+    padding:0px 0 0 5px;
+    line-height:20px;
+}
+.pin{
+    margin:0 0 0 50px;
+    height:20px;
+    width:40%;
+    padding:0px 0 0 5px;
+    line-height:20px;
+}
+.state{
+    margin:0 0 0 76px;
+    height:20px;
+    width:40%;
+    padding:0px 0 0 5px;
+    line-height:20px;
+}
+.deg{
+    margin:0 0 0 28px;
+}
+.pwd{
+    margin:0 0 0 50px;
+    height:20px;
+    width:40%;
+    padding:0px 0 0 5px;
+    line-height:20px;
+}
+.btn{
+    background:rgb(5, 148, 5);
+    color:white;
+    border:none;
+    padding:5px 5px 5px 5px;
+    font-size:10px;
+    font-weight:bold;
+
+}
+.cs{
+    margin:0 0 0 20px;
+}
+.it,.ca,.tc{
+    margin:0 0 0 112px;
+}
